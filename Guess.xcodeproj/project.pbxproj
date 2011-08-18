@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5785E4113F50C2400B45ADD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5785E4013F50C2400B45ADD /* UIKit.framework */; };
+		C5785E4313F50C2400B45ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5785E4213F50C2400B45ADD /* Foundation.framework */; };
+		C5785E4513F50C2400B45ADD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5785E4413F50C2400B45ADD /* CoreGraphics.framework */; };
+		C5785E4B13F50C2400B45ADD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5785E4913F50C2400B45ADD /* InfoPlist.strings */; };
+		C5785E4E13F50C2400B45ADD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5785E4D13F50C2400B45ADD /* main.m */; };
+		C5785E5113F50C2400B45ADD /* GuessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5785E5013F50C2400B45ADD /* GuessAppDelegate.m */; };
+		C5785E5413F50C2400B45ADD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5785E5213F50C2400B45ADD /* MainWindow.xib */; };
+		C5785E5713F50C2400B45ADD /* GuessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5785E5613F50C2400B45ADD /* GuessViewController.m */; };
+		C5785E5A13F50C2400B45ADD /* GuessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5785E5813F50C2400B45ADD /* GuessViewController.xib */; };
+		C5D8BCBD13FC9E5B001937A6 /* thumbdown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D8BCBA13FC9E5B001937A6 /* thumbdown@2x.png */; };
+		C5D8BCBE13FC9E5B001937A6 /* thumbup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D8BCBB13FC9E5B001937A6 /* thumbup@2x.png */; };
+		C5D8BCBF13FC9E5B001937A6 /* trophy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D8BCBC13FC9E5B001937A6 /* trophy@2x.png */; };
+		C5D8BCC113FC9E68001937A6 /* light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D8BCC013FC9E68001937A6 /* light@2x.png */; };
+		C5DEA19D13F8A17F00FB1079 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DEA19313F8A17F00FB1079 /* icon.png */; };
+		C5DEA19F13F8A17F00FB1079 /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DEA19513F8A17F00FB1079 /* light.png */; };
+		C5DEA1A113F8A17F00FB1079 /* thumbdown.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DEA19713F8A17F00FB1079 /* thumbdown.png */; };
+		C5DEA1A313F8A17F00FB1079 /* thumbup.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DEA19913F8A17F00FB1079 /* thumbup.png */; };
+		C5DEA1A513F8A17F00FB1079 /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DEA19B13F8A17F00FB1079 /* trophy.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5785E3C13F50C2400B45ADD /* Guess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5785E4013F50C2400B45ADD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C5785E4213F50C2400B45ADD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5785E4413F50C2400B45ADD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5785E4813F50C2400B45ADD /* Guess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Guess-Info.plist"; sourceTree = "<group>"; };
+		C5785E4A13F50C2400B45ADD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5785E4C13F50C2400B45ADD /* Guess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Guess-Prefix.pch"; sourceTree = "<group>"; };
+		C5785E4D13F50C2400B45ADD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5785E4F13F50C2400B45ADD /* GuessAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuessAppDelegate.h; sourceTree = "<group>"; };
+		C5785E5013F50C2400B45ADD /* GuessAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessAppDelegate.m; sourceTree = "<group>"; };
+		C5785E5313F50C2400B45ADD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C5785E5513F50C2400B45ADD /* GuessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuessViewController.h; sourceTree = "<group>"; };
+		C5785E5613F50C2400B45ADD /* GuessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessViewController.m; sourceTree = "<group>"; };
+		C5785E5913F50C2400B45ADD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GuessViewController.xib; sourceTree = "<group>"; };
+		C5D8BCBA13FC9E5B001937A6 /* thumbdown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbdown@2x.png"; sourceTree = "<group>"; };
+		C5D8BCBB13FC9E5B001937A6 /* thumbup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbup@2x.png"; sourceTree = "<group>"; };
+		C5D8BCBC13FC9E5B001937A6 /* trophy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trophy@2x.png"; sourceTree = "<group>"; };
+		C5D8BCC013FC9E68001937A6 /* light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light@2x.png"; sourceTree = "<group>"; };
+		C5DEA19313F8A17F00FB1079 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C5DEA19513F8A17F00FB1079 /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light.png; sourceTree = "<group>"; };
+		C5DEA19713F8A17F00FB1079 /* thumbdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbdown.png; sourceTree = "<group>"; };
+		C5DEA19913F8A17F00FB1079 /* thumbup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbup.png; sourceTree = "<group>"; };
+		C5DEA19B13F8A17F00FB1079 /* trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophy.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5785E3913F50C2400B45ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5785E4113F50C2400B45ADD /* UIKit.framework in Frameworks */,
+				C5785E4313F50C2400B45ADD /* Foundation.framework in Frameworks */,
+				C5785E4513F50C2400B45ADD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5785E3113F50C2400B45ADD = {
+			isa = PBXGroup;
+			children = (
+				C5DEA19213F8A17F00FB1079 /* Resource */,
+				C5785E4613F50C2400B45ADD /* Guess */,
+				C5785E3F13F50C2400B45ADD /* Frameworks */,
+				C5785E3D13F50C2400B45ADD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5785E3D13F50C2400B45ADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5785E3C13F50C2400B45ADD /* Guess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5785E3F13F50C2400B45ADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5785E4013F50C2400B45ADD /* UIKit.framework */,
+				C5785E4213F50C2400B45ADD /* Foundation.framework */,
+				C5785E4413F50C2400B45ADD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5785E4613F50C2400B45ADD /* Guess */ = {
+			isa = PBXGroup;
+			children = (
+				C5785E4F13F50C2400B45ADD /* GuessAppDelegate.h */,
+				C5785E5013F50C2400B45ADD /* GuessAppDelegate.m */,
+				C5785E5213F50C2400B45ADD /* MainWindow.xib */,
+				C5785E5513F50C2400B45ADD /* GuessViewController.h */,
+				C5785E5613F50C2400B45ADD /* GuessViewController.m */,
+				C5785E5813F50C2400B45ADD /* GuessViewController.xib */,
+				C5785E4713F50C2400B45ADD /* Supporting Files */,
+			);
+			path = Guess;
+			sourceTree = "<group>";
+		};
+		C5785E4713F50C2400B45ADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5785E4813F50C2400B45ADD /* Guess-Info.plist */,
+				C5785E4913F50C2400B45ADD /* InfoPlist.strings */,
+				C5785E4C13F50C2400B45ADD /* Guess-Prefix.pch */,
+				C5785E4D13F50C2400B45ADD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5DEA19213F8A17F00FB1079 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C5D8BCBA13FC9E5B001937A6 /* thumbdown@2x.png */,
+				C5D8BCBB13FC9E5B001937A6 /* thumbup@2x.png */,
+				C5D8BCBC13FC9E5B001937A6 /* trophy@2x.png */,
+				C5DEA19313F8A17F00FB1079 /* icon.png */,
+				C5D8BCC013FC9E68001937A6 /* light@2x.png */,
+				C5DEA19513F8A17F00FB1079 /* light.png */,
+				C5DEA19713F8A17F00FB1079 /* thumbdown.png */,
+				C5DEA19913F8A17F00FB1079 /* thumbup.png */,
+				C5DEA19B13F8A17F00FB1079 /* trophy.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5785E3B13F50C2400B45ADD /* Guess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5785E5D13F50C2400B45ADD /* Build configuration list for PBXNativeTarget "Guess" */;
+			buildPhases = (
+				C5785E3813F50C2400B45ADD /* Sources */,
+				C5785E3913F50C2400B45ADD /* Frameworks */,
+				C5785E3A13F50C2400B45ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guess;
+			productName = Guess;
+			productReference = C5785E3C13F50C2400B45ADD /* Guess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5785E3313F50C2400B45ADD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C5785E3613F50C2400B45ADD /* Build configuration list for PBXProject "Guess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5785E3113F50C2400B45ADD;
+			productRefGroup = C5785E3D13F50C2400B45ADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5785E3B13F50C2400B45ADD /* Guess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5785E3A13F50C2400B45ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5785E4B13F50C2400B45ADD /* InfoPlist.strings in Resources */,
+				C5785E5413F50C2400B45ADD /* MainWindow.xib in Resources */,
+				C5785E5A13F50C2400B45ADD /* GuessViewController.xib in Resources */,
+				C5DEA19D13F8A17F00FB1079 /* icon.png in Resources */,
+				C5DEA19F13F8A17F00FB1079 /* light.png in Resources */,
+				C5DEA1A113F8A17F00FB1079 /* thumbdown.png in Resources */,
+				C5DEA1A313F8A17F00FB1079 /* thumbup.png in Resources */,
+				C5DEA1A513F8A17F00FB1079 /* trophy.png in Resources */,
+				C5D8BCBD13FC9E5B001937A6 /* thumbdown@2x.png in Resources */,
+				C5D8BCBE13FC9E5B001937A6 /* thumbup@2x.png in Resources */,
+				C5D8BCBF13FC9E5B001937A6 /* trophy@2x.png in Resources */,
+				C5D8BCC113FC9E68001937A6 /* light@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5785E3813F50C2400B45ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5785E4E13F50C2400B45ADD /* main.m in Sources */,
+				C5785E5113F50C2400B45ADD /* GuessAppDelegate.m in Sources */,
+				C5785E5713F50C2400B45ADD /* GuessViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5785E4913F50C2400B45ADD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5785E4A13F50C2400B45ADD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C5785E5213F50C2400B45ADD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5785E5313F50C2400B45ADD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C5785E5813F50C2400B45ADD /* GuessViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5785E5913F50C2400B45ADD /* en */,
+			);
+			name = GuessViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5785E5B13F50C2400B45ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5785E5C13F50C2400B45ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C5785E5E13F50C2400B45ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guess/Guess-Prefix.pch";
+				INFOPLIST_FILE = "Guess/Guess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C5785E5F13F50C2400B45ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guess/Guess-Prefix.pch";
+				INFOPLIST_FILE = "Guess/Guess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5785E3613F50C2400B45ADD /* Build configuration list for PBXProject "Guess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5785E5B13F50C2400B45ADD /* Debug */,
+				C5785E5C13F50C2400B45ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5785E5D13F50C2400B45ADD /* Build configuration list for PBXNativeTarget "Guess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5785E5E13F50C2400B45ADD /* Debug */,
+				C5785E5F13F50C2400B45ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5785E3313F50C2400B45ADD /* Project object */;
+}
